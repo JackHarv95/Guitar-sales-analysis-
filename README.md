@@ -1,4 +1,4 @@
-# 🎸 Guitar Handedness Representation Analysis
+#  Guitar Handedness Representation Analysis
 
 **Tool:** Power BI (DAX) · **Language:** Python · **Domain:** Retail / Music Industry
 
@@ -14,10 +14,10 @@ Using a dataset of 515 raw guitar sales records across 11 major manufacturers an
 
 ## Key Finding
 
-> **Left-handed guitars account for ~5.2% of units sold** across the cleaned dataset — roughly half the ~10% population benchmark — suggesting meaningful underrepresentation in retail stock and sales.
+> **Left-handed guitars account for ~5.2% of units sold** across the cleaned dataset — roughly half the 10% population benchmark — suggesting meaningful underrepresentation in retail stock and sales.
 
 ---
-![image](https://github.com/JackHarv95/Guitar-sales-analysis-/blob/main/Screenshot%202026-05-20%20at%2019.26.44.png?raw=true)
+![image](https://github.com/JackHarv95/Guitar-sales-analysis-/blob/main/docs/Screenshot%202026-05-20%20at%2019.26.44.png?raw=true)
 
 
 ## Dashboard Features
@@ -50,7 +50,7 @@ The Power BI dashboard includes:
 
 ## Data Cleaning (Python)
 
-The raw dataset contained several quality issues, addressed in [`scripts/clean_data.py`](scripts/clean_data.py):
+The raw dataset contained several quality issues
 
 | Issue | Fix |
 |---|---|
@@ -77,41 +77,18 @@ guitar-handedness-analysis/
 │   └── processed/                  # Cleaned, analysis-ready dataset
 │       └── guitar_dataset_clean.csv
 │
-├── scripts/
-│   └── clean_data.py               # Python cleaning pipeline
-│
 ├── dashboard/
 │   └── Guitar_Handedness_Analysis.pbix   # Power BI dashboard file
 │
 ├── docs/
-│   └── dax_measures.md             # All DAX measures documented
-│
-├── assets/                         # Screenshots for README / portfolio
+│   └── dax_measures.md             # All DAX measures documentedassets/
+    └── # Screenshots for README / portfolio
 │
 └── README.md
 ```
 
 ---
 
-## How to Use
-
-### View the Dashboard
-1. Download [`dashboard/Guitar_Handedness_Analysis.pbix`](dashboard/Guitar_Handedness_Analysis.pbix)
-2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-3. Use the **Manufacturer** and **Guitar Type** filters to explore
-4. Adjust the **Benchmark Slider** to change the assumed left-handed population %
-
-### Re-run the Cleaning Script
-```bash
-# Install dependencies
-pip install pandas numpy
-
-# Run from project root
-python scripts/clean_data.py
-# Output: data/processed/guitar_dataset_clean.csv
-```
-
----
 
 ## Skills Demonstrated
 
@@ -119,9 +96,3 @@ python scripts/clean_data.py
 - **Power BI / DAX** — calculated measures, dynamic benchmarking, interactive filters
 - **Data storytelling** — framing a business question around representation and retail gap analysis
 - **Data quality** — systematic approach to identifying and resolving 7+ categories of data issue
-
----
-
-## Contact
-
-Built by [Your Name](https://github.com/yourusername) · [LinkedIn](https://linkedin.com/in/yourprofile)
