@@ -17,6 +17,8 @@ Using a dataset of 515 raw guitar sales records across 11 major manufacturers an
 > **Left-handed guitars account for ~5.2% of units sold** across the cleaned dataset — roughly half the ~10% population benchmark — suggesting meaningful underrepresentation in retail stock and sales.
 
 ---
+![image](https://github.com/JackHarv95/Guitar-sales-analysis-/blob/main/Screenshot%202026-05-20%20at%2019.26.44.png?raw=true)
+
 
 ## Dashboard Features
 
